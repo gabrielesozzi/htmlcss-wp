@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body.debug div[class^="col-"] > div {
+  height: 50px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#logo {
+  border-right: 3px solid grey;
+  padding-right: 20px;
+}
+
+.container{
+  padding-top: 50px;
+}
+
+p {
+  display: inline-block;
+  color: grey;
+  padding-top: 10px;
+}
+
+[class^="col-"] {
+float: left;
+padding: 15px 0;
+}
+
+.col-100 {
+  width: 100%
+}
+
+.col-50 {
+  width: 50%;
+}
+
+.col-25 {
+  width: 25%;
+}
+
+.banner {
+  background-image: url("./assets/img/banner.jpg");
+  height: 683px;
+}
+
+.pad-left {
+  padding-left: 5px;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.cyan {
+  background-color: #1a75ff;
+}
+
+.purple {
+  background-color: #b300b3;
+}
